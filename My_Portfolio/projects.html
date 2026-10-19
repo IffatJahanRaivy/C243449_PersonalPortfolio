@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Iffat Jahan Raivy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="welcome-header">
+        <h1>My Projects</h1>
+        <p>Iffat Jahan Raivy | B.Sc. in CSE Student</p>
+    </header>
+
+    <div class="container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <span class="project-badge">WEB DEVELOPMENT</span>
+            <h2>School Management System</h2>
+            <p>A web-based application developed to manage school-related information and activities.</p>
+            <p id="details1" class="extra-text">This project focuses on organizing school information and making school management activities easier. Django handles the backend while HTML, CSS, and JS handle the UI.</p>
+            <button class="show-btn" onclick="toggleDetails('details1', this)">Show More</button>
+            <p class="tech"><b>Technologies:</b> Django, Python, HTML, CSS, JavaScript</p>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <span class="project-badge">C++ PROGRAMMING</span>
+            <h2>Blood Donation Management System</h2>
+            <p>An application developed to organize blood donor information and support blood donation management.</p>
+            <p id="details2" class="extra-text">The system focuses on maintaining donor information, organizing records related to blood donation, and demonstrating core C++ logic.</p>
+            <button class="show-btn" onclick="toggleDetails('details2', this)">Show More</button>
+            <p class="tech"><b>Technology:</b> C++</p>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <span class="project-badge">C PROGRAMMING</span>
+            <h2>Bus Reservation System</h2>
+            <p>A console-based application developed to manage bus reservations and related information.</p>
+            <p id="details3" class="extra-text">The application demonstrates basic reservation logic where bus schedules, seats, and reservation records are managed efficiently using C concepts.</p>
+            <button class="show-btn" onclick="toggleDetails('details3', this)">Show More</button>
+            <p class="tech"><b>Technology:</b> C</p>
+        </div>
+
+        <!-- Competitions Section -->
+        <div class="project-card">
+            <span class="project-badge">COMPETITIONS</span>
+            <h2>AI & Chatbot Competitions</h2>
+            <p>• AgentX - AI Prompting Competition — IEEE Computer Society, IIUC (2025)</p>
+            <p>• AgentX - Build Your Chatbot Competition (Stage 3) — Successfully Participated (2025)</p>
+        </div>
+
+        <!-- Back to Home Button -->
+        <div style="margin-top: 30px;">
+            <a href="index.html" class="back-home-btn">&larr; Back to Home</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Designed & Developed by Iffat Jahan Raivy</p>
+    </footer>
+
+    <script>
+        function toggleDetails(id, btn) {
+            var text = document.getElementById(id);
+            if (text.style.display === "block") {
+                text.style.display = "none";
+                btn.innerText = "Show More";
+            } else {
+                text.style.display = "block";
+                btn.innerText = "Show Less";
+            }
+        }
+    </script>
+
+</body>
+</html>
