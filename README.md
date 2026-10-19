@@ -27,7 +27,7 @@ Welcome to the official GitHub repository for my personal portfolio website! Thi
 
 ## 🌐 Live Website Link
 You can view the live deployed portfolio website here:  
-👉 [https://[tomar-username].github.io/StudentID_PersonalPortfolio/](https://[tomar-username].github.io/StudentID_PersonalPortfolio/)
+👉 [https://iffatjahanraivy.github.io/C243449_PersonalPortfolio/](https://iffatjahanraivy.github.io/C243449_PersonalPortfolio/)
 
 ---
 *Designed & Developed by Iffat Jahan Raivy*
